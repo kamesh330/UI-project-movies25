@@ -1,0 +1,103 @@
+// .box {
+//     position: relative;
+//     width: 200px;
+//     height: 200px;
+//     background-color: rgba(255, 255, 255, 0);
+//     transform-style: preserve-3d;
+//     animation: animate 10s linear infinite;
+// }
+// .box #rotater-displayer {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     transform-origin: center;
+//     transform-style: preserve-3d;
+//     transform: rotateY(calc(var(--i) * 60deg)) translateZ(300px);
+// }
+// .box #rotater-displayer img {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+  
+//     width: 100%;
+//     height: 100%;
+// }
+// // @keyframes animate {
+// //     0% {
+// //         transform: perspective(1000px) rotateY(0deg);
+// //     }
+// //     100% {
+// //         transform: perspective(1000px) rotateY(360deg);
+// //     }
+// // }
+// img#q1 {
+//   position: relative;
+//   display: inline-block;
+//   transition: transform 0.2s ease-in-out; 
+// }
+// img#q1:hover {
+//   transform: scale(1.2); 
+// }
+// img#q2 {
+//   position: relative;
+//   display: inline-block; 
+//   transition: transform 0.2s ease-in-out; 
+// }
+
+// img#q2:hover {
+//   transform: scale(1.2); 
+// }
+// img#q3 {
+//   position: relative;
+//   display: inline-block;
+//   transition: transform 0.2s ease-in-out; 
+// }
+
+// img#q3:hover {
+//   transform: scale(1.2); 
+// }
+// img#q4 {
+//   position: relative;
+//   display: inline-block; 
+//   transition: transform 0.2s ease-in-out;
+// }
+
+// img#q4:hover {
+//   transform: scale(1.2);
+// }
+// img#q5 {
+//   position: relative;
+//   display: inline-block; 
+//   transition: transform 0.2s ease-in-out;
+// }
+
+// img#q5:hover {
+//   transform: scale(1.2);
+// }
+// img#q6 {
+//   position: relative;
+//   display: inline-block; 
+//   transition: transform 0.2s ease-in-out;
+// }
+
+// img#q6:hover {
+//   transform: scale(1.2); 
+// }
+
+// #rotater-displayer:hover::after{
+//     content: "SUBSCRIBE TO WATCH ";
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//     color: white;
+//     font-size: 20px;
+//     text-align: center;
+//     width: 100%;
+//     height: 100%;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }

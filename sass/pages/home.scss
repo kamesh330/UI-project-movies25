@@ -1,0 +1,140 @@
+@import "../utilities/varibale.scss" ;
+
+
+
+.movies-card-outer {
+  padding-top: 30rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 3rem;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding: 30rem 0;
+  margin-top: -17rem;
+  background:linear-gradient(138deg,
+  $color-dark-blue-3 50%,
+  #f7f7f7 50%);
+  padding-bottom: 20rem;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 99%, 0% 94%);
+}
+
+
+
+
+.movies-animation-block {
+
+  grid-row: 1/3;
+  grid-column: 1/3;
+  width: 100%;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  margin: 2rem;
+
+  & img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    animation: fadeCycle 4.5s ease-in-out infinite;
+  }
+}
+
+
+.features_section{
+    background-image:  linear-gradient(to right bottom, rgba($H-1,0.3),rgba($H-2,0.3)), url("../img/threater2.jpeg")  ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 34rem 0  58rem 0;
+    margin: -30rem 0 0 0;
+    animation: moveout 5s ease-in-out infinite;
+}
+
+
+
+.footer {
+    background-color: #3333;
+    padding: 5rem 0 10rem 0;
+    font-size: 1.4rem;
+    color: $color-grey-light-1;
+
+ 
+
+    &__logo-box {
+        text-align: center;
+        margin-bottom: 8rem;
+
+    
+    }
+
+    &__logo {
+        width: 15rem;
+        height: auto;
+    }
+
+    &__navigation {
+        border-top: 1px solid $color-grey-dark;
+        padding-top: 2rem;
+        display: inline-block;
+        margin-left: 5rem;
+
+   
+    }
+
+    &__list {
+        list-style: none;
+        font-size: 1.6rem;
+    }
+
+    &__item {
+        display: inline-block;
+        font-size: 2rem;
+        margin: .5rem;
+
+  
+    }
+
+    &__link {
+        &:link,
+        &:visited {
+            color: $color-grey-light-1;
+            background-color: $color-grey-dark-3;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 1.4rem;
+            display: inline-block;
+            transition: all .2s;
+        }
+
+        &:hover,
+        &:active {
+            color: $color-primary;
+            box-shadow: 0 1rem 2rem rgba($color-black, .4);
+            transform: rotate(5deg) scale(1.3);
+        }
+    }
+
+    &__copyright {
+        border-top: 1px solid $color-grey-dark;
+        padding-top: 2rem;
+        width: 80%;
+        font-size: 1.5rem;
+        float: right;
+
+  
+    }
+}
+
+
+.about_page{
+    background-image: linear-gradient(-138deg, #1a2736 50%, #1a2736 50%) !important;
+}
+
+.overlay-container{
+    background-image: linear-gradient(313deg, #1a2736 50%, #f7f7f7 50%) !important;
+
+}

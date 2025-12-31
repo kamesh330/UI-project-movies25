@@ -1,0 +1,41 @@
+////  animation
+@import "../sass/animation/animation.scss";
+@import "../sass/animation/rotation.scss";
+
+////  features
+@import "../sass/featurse/slideanimation.scss";
+@import "../sass/featurse/sp_container.scss";
+
+/// utilities
+@import "../sass/utilities/utilites.scss";
+@import "../sass/utilities/typograph.scss";
+@import "../sass/utilities/varibale.scss";
+
+///   base 
+@import "../sass/base/base.scss";
+
+///page
+@import "../sass/pages/header.scss";
+@import "../sass/pages/home.scss";
+@import "../sass/pages/login.scss";
+
+/// btn
+@import "../sass/btn.scss";
+
+///naviagtion
+@import "../sass/navigation.scss";
+
+// movies_card.scss
+@import "../sass/movie_card.scss";
+
+/// layout
+@import "../sass/layout.scss";
+
+
+// / popup
+@import "../sass/pages/popup.scss";
+
+
+.footer{
+    background-color: rgba(51, 51, 51);
+}

@@ -1,0 +1,103 @@
+
+
+
+.sp-container {
+    width: 300px;
+    height: 441px;
+    margin: 3rem;
+    perspective: 1000px;
+}
+
+.sp-container-card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.sp-container-card:hover {
+    transform: rotateX(55deg);
+}
+
+
+.sp-overlay {
+
+    width: 100%;
+    height: 0;
+    opacity: 0;
+    position: absolute;
+    object-fit: cover;
+    bottom: 0;
+
+    z-index: 2;
+    transition: height 0.1s ease-in-out, opacity 0.5s ease-in;
+
+    &-1 {
+        background: url('../../img/sp-removebg-preview.png');
+
+    }
+
+    &-2 {
+        background: url('../../img/img-$ (1)-copy.png');
+        object-fit: cover;
+    }
+
+    &-3 {
+        background: url('../../img/img-$ (3)-copy.png');
+    }
+
+    &-4 {
+        background: url('../../img/img-$ (12)-copy.png');
+
+    }
+
+    &-5 {
+        background: url('../../img/img-$ (13)-copy.png');
+
+    }
+
+    &-6 {
+        background: url('../../img/img-$ (15)-copy.png');
+
+    }
+
+    &-7 {
+        background: url('../../img/img-$ (22)-copy.png');
+
+    }
+
+
+    &-8 {
+        background: url('../../img/img-$ (26)-copy.png');
+
+    }
+}
+
+.sp-overlay-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sp-container:hover>.sp-container-card {
+    transform: rotateX(68deg) translateY(164px);
+}
+
+.sp-container:hover>.sp-overlay {
+    height: 100%;
+    opacity: 1;
+}
+
+.sp-image {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.gradient {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.1) 50%, transparent 50%);
+}

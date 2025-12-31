@@ -1,0 +1,105 @@
+.movies-animation-block {
+
+
+  #d1 {
+    animation-delay: 0s;
+  }
+
+  #d2 {
+    animation-delay: 0.7s;
+  }
+
+  #d3 {
+    animation-delay: 1.4s;
+  }
+
+  #d4 {
+    animation-delay: 1.9s;
+  }
+
+  #d5 {
+    animation-delay: 2.6s;
+  }
+
+  #d6 {
+    animation-delay: 3.3s;
+  }
+
+  #d7 {
+    animation-delay: 4s;
+  }
+
+  #d8 {
+    animation-delay: 4.5s;
+  }
+
+
+
+  @keyframes fadeCycle {
+    0% {
+      opacity: 0;
+    }
+
+    10% {
+      opacity: 1;
+    }
+
+    30% {
+      opacity: 1;
+    }
+
+    40% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+}
+
+// .sp-container {
+//   width: 300px;
+//   height: 400px;
+//   display: block;
+
+//   margin: 3rem;
+//   perspective: 1000px;
+
+//   &-card {
+//     width: 100%;
+//     height: 100%;
+//     position: relative;
+
+//     &:hover {
+//       transform: rotateX(55deg);
+//       >.sp-overlay {
+//   width: 380px;
+//   opacity: 1;
+//       }
+//       &>.sp-container-card {
+//         transform: rotateX(50deg);
+//       }
+//     }
+//   }
+// }
+
+// .sp-overlay {
+
+//   width: 0px;
+//   height: 500px;
+//   opacity: 0;
+//   position: absolute;
+//   transform: translate(-21%, -9%);
+//   bottom: 0;
+//   left: 0;
+//   background: url('img/sp-removebg-preview.png');
+//   z-index: 2;
+//   transition: width 0.1s ease-in-out, opacity 0.5s ease-in;
+// }
+
+
+
+// .sp-image {
+//   width: 100%;
+// }

@@ -1,0 +1,1418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/R_cover.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fontisto@latest/css/fontisto/fontisto.min.css">
+
+</head>
+
+<body class="body" style="padding: 3rem;">
+
+    <div id="header" class="header">
+        <div class="logo">
+            <img class="logo_image" src="img/transparent-logo.png" alt="logo">
+        </div>
+
+        <div class="card">
+            <div class="loader  -u-bottom-l">
+                <p>Unlimited </p>
+                <div class="words">
+                    <span class="word">Movies</span>
+                    <span class="word">TV shows</span>
+                    <span class="word">Web Series</span>
+                    <span class="word">Cartoon</span>
+                    <span class="word">Anime</span>
+                    <span class="word">and more.</span>
+                </div>
+            </div>
+        </div>
+        <div class="btn-center"> <a  href="#feature_section" class="btn  header__watchnow">Watch Now</a></div>
+
+
+    </div>
+    <!-- naviagtion -->
+    <div id="navigation" style="display: none;" class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+        <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+        </label>
+
+        <div class="navigation__background">&nbsp;</div>
+
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item "><a href="#movies-card-outer" id="navigation__link"
+                        class="navigation__link "><span>01</span>Movies shows</a></li>
+                <li class="navigation__item "><a href="#" class="navigation__link "><span>02</span>Buy now</a></li>
+                <li class="navigation__item "><a href="#feature_section" class="navigation__link "><span>03</span>features section</a>
+                </li>
+                <li class="navigation__item "><a href="#about_page" class="navigation__link "><span>04</span>About us</a></li>
+                <li class="navigation__item "><a href="#footer" class="navigation__link "><span>05</span>Footer</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- naviagtion -->
+    <!-- login form -->
+    <div id="container" id="container" class="container">
+        <div class="inner_container">
+            <form class="form">
+                <div class="video_container">
+                    <img src="img/transparent-logo.png" class="login_logo">
+                </div>
+                <div class="signup_container">
+                    <div  class="form_main">
+                        <p class="heading">Login</p>
+                        <div class="inputContainer  user--name">
+                            <svg class="inputIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="#2e2e2e" viewBox="0 0 16 16">
+                                <path
+                                    d="M13.106 7.222c0-2.967-2.249-5.032-5.482-5.032-3.35 0-5.646 2.318-5.646 5.702 0 3.493 2.235 5.708 5.762 5.708.862 0 1.689-.123 2.304-.335v-.862c-.43.199-1.354.328-2.29.328-2.926 0-4.813-1.88-4.813-4.798 0-2.844 1.921-4.881 4.594-4.881 2.735 0 4.608 1.688 4.608 4.156 0 1.682-.554 2.769-1.416 2.769-.492 0-.772-.28-.772-.76V5.206H8.923v.834h-.11c-.266-.595-.881-.964-1.6-.964-1.4 0-2.378 1.162-2.378 2.823 0 1.737.957 2.906 2.379 2.906.8 0 1.415-.39 1.709-1.087h.11c.081.67.703 1.148 1.503 1.148 1.572 0 2.57-1.415 2.57-3.643zm-7.177.704c0-1.197.54-1.907 1.456-1.907.93 0 1.524.738 1.524 1.907S8.308 9.84 7.371 9.84c-.895 0-1.442-.725-1.442-1.914z">
+                                </path>
+                            </svg>
+                            <input   type="text" class="inputField  user--name_input" id="username" placeholder="Username">
+                        </div>
+
+                        <div class="inputContainer  user--password">
+                            <svg class="inputIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="#2e2e2e" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z">
+                                </path>
+                            </svg>
+                            <input type="password" class="inputField  user--password_input" id="password" placeholder="Password">
+                        </div>
+
+                        <div class="login--google"><i class="fa-brands fa-google fa-beat-fade  hi"></i>Google</div>
+                        <div class="login--yahooe"><i class="fa-brands fa-yahoo fa-beat-fade hi"></i>Yahroo</div>
+
+                        <button id="login">Submit</button>
+                        <a class="forgotLink" href="#">Forgot your password?</a>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- login form -->
+    <!-- *********************************************** -->
+    <!-- *********************************************** -->
+    <!-- home-page -->
+
+    <div id="movies-card-outer" style="display: none;" class="movies-card-outer">
+        <p class="heading-secondary">Movies Shows</p>
+        <div id="movies-card" class="movies-card">
+            <div class="gradient"></div>
+            <img src="img/img-$ (1).jpg" alt="Movie Poster">
+            <div class="movies-details">
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-1 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-2 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-3  star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-4 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-5 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <p class="movies-details-voting">(3,24,990)players</p>
+                <p class="movies-details-names">AQUAMAN</p>
+                <button class="watch">Trailer </button>
+                <button id="add-to-cast" class="add-to-cast">Watch now</button>
+
+                <p class="movies-details-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                    dolor voluptas, veniam nes</p>
+            </div>
+
+        </div>
+        <div class="movies-card">
+            <img src="img/img-$ (4).jpg" alt="Movie Poster">
+            <div class="movies-details">
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-1 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-2 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-3  star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-4 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-5 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <p class="movies-details-voting">(3,24,990)players</p>
+                <button class="watch">Trailer </button>
+                <p class="movies-details-names">IRON MAN</p>
+
+                <button id="add-to-cast" class="add-to-cast">Watch now</button>
+                <p class="movies-details-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                    dolor voluptas, veniam nes</p>
+            </div>
+        </div>
+        <div class="movies-card">
+            <img src="img/img-$ (13).jpg" alt="Movie Poster">
+            <div class="movies-details">
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-1 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-2 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-3  star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-4 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-5 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <p class="movies-details-voting">(3,24,990)players</p>
+                <button class="watch">Trailer </button>
+                <p class="movies-details-names">Captain America</p>
+
+                <button id="add-to-cast" class="add-to-cast">Watch now</button>
+                <p class="movies-details-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                    dolor voluptas, veniam nes</p>
+            </div>
+        </div>
+        <div class="movies-card">
+            <img src="img/j.png" alt="Movie Poster">
+            <div class="movies-details">
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-1 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-2 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-3  star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-4 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-5 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <p class="movies-details-voting">(3,24,990)players</p>
+                <button class="watch">Trailer </button>
+                <button id="add-to-cast" class="add-to-cast">Watch now</button>
+                <p class="movies-details-names">Jurassic World</p>
+
+                <p class="movies-details-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                    dolor voluptas, veniam nes</p>
+            </div>
+        </div>
+        <div class="movies-card">
+            <img src="img/img-$ (6).jpg" alt="Movie Poster">
+            <div class="movies-details">
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-1 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-2 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-3  star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-4 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-5 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <p class="movies-details-voting">(3,24,990)players</p>
+                <button class="watch">Trailer </button>
+                <button id="add-to-cast" class="add-to-cast">Watch now</button>
+                <p class="movies-details-names">Thor</p>
+
+                <p class="movies-details-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                    dolor voluptas, veniam nes</p>
+            </div>
+        </div>
+        <div class="movies-card">
+            <img src="img/img-$ (7).jpg" alt="Movie Poster">
+            <div class="movies-details">
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-1 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-2 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-3  star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-4 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-5 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <p class="movies-details-voting">(3,24,990)players</p>
+                <button class="watch">Trailer </button>
+                <p class="movies-details-names">Ant Man</p>
+
+                <button id="add-to-cast" class="add-to-cast">Watch now</button>
+                <p class="movies-details-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                    dolor voluptas, veniam nes</p>
+            </div>
+        </div>
+        <div class="movies-card">
+            <img src="img/img-$ (8).jpg" alt="Movie Poster">
+            <div class="movies-details">
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-1 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-2 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-3  star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-4 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-5 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <p class="movies-details-voting">(3,24,990)players</p>
+                <button class="watch">Trailer </button>
+                <p class="movies-details-names">Spider Man</p>
+
+                <button id="add-to-cast" class="add-to-cast">Watch now</button>
+                <p class="movies-details-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                    dolor voluptas, veniam nes</p>
+            </div>
+        </div>
+        <div class="movies-card">
+            <img src="img/img-$ (9).jpg" alt="Movie Poster">
+            <div class="movies-details">
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-1 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-2 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-3  star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-4 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-5 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <p class="movies-details-voting">(3,24,990)players</p>
+                <button class="watch">Trailer </button>
+                <p class="movies-details-names">Man of Steel</p>
+
+                <button id="add-to-cast" class="add-to-cast">Watch now</button>
+                <p class="movies-details-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                    dolor voluptas, veniam nes</p>
+            </div>
+        </div>
+        <div class="movies-card">
+            <img src="img/img-$ (10).jpg" alt="Movie Poster">
+            <div class="movies-details">
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-1 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-2 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-3  star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-4 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-5 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <p class="movies-details-voting">(3,24,990)players</p>
+                <button class="watch">Trailer </button>
+                <p class="movies-details-names">Wonder Woman</p>
+
+                <button id="add-to-cast" class="add-to-cast">Watch now</button>
+                <p class="movies-details-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                    dolor voluptas, veniam nes</p>
+            </div>
+        </div>
+        <div class="movies-card">
+            <img src="img/img-$ (12).jpg" alt="Movie Poster">
+            <div class="movies-details">
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-1 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-2 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-3  star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-4 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-5 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <p class="movies-details-voting">(3,24,990)players</p>
+                <button class="watch">Trailer </button>
+                <p class="movies-details-names">Black panther</p>
+
+                <button id="add-to-cast" class="add-to-cast">Watch now</button>
+                <p class="movies-details-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                    dolor voluptas, veniam nes</p>
+            </div>
+        </div>
+        <div class="movies-card">
+            <img src="img/img-$ (14).jpg" alt="Movie Poster">
+            <div class="movies-details">
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-1 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-2 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-3  star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-4 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-5 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <p class="movies-details-voting">(3,24,990)players</p>
+                <button class="watch">Trailer </button>
+                <p class="movies-details-names">Deadpool Wolverine</p>
+
+                <button id="add-to-cast" class="add-to-cast">Watch now</button>
+                <p class="movies-details-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                    dolor voluptas, veniam nes</p>
+            </div>
+        </div>
+        <div class="movies-card">
+            <img src="img/img-$ (15).jpg" alt="Movie Poster">
+            <div class="movies-details">
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-1 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-2 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-3  star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-4 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-5 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <p class="movies-details-voting">(3,24,990)players</p>
+                <button class="watch">Trailer </button>
+                <p class="movies-details-names">Black widow</p>
+
+                <button id="add-to-cast" class="add-to-cast">Watch now</button>
+                <p class="movies-details-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                    dolor voluptas, veniam nes</p>
+            </div>
+        </div>
+        <div class="movies-card">
+            <img src="img/img-$ (16).jpg" alt="Movie Poster">
+            <div class="movies-details">
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-1 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-2 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-3  star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-4 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-5 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <p class="movies-details-voting">(3,24,990)players</p>
+                <button class="watch">Trailer </button>
+                <p class="movies-details-names">The Dark Knight</p>
+
+                <button id="add-to-cast" class="add-to-cast">Watch now</button>
+                <p class="movies-details-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                    dolor voluptas, veniam nes</p>
+            </div>
+        </div>
+        <div class="movies-card">
+            <img src="img/img-$ (17).jpg" alt="Movie Poster">
+            <div class="movies-details">
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-1 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-2 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-3  star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-4 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-5 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <p class="movies-details-voting">(3,24,990)players</p>
+                <button class="watch">Trailer </button>
+                <p class="movies-details-names">World War Hulk</p>
+
+                <button id="add-to-cast" class="add-to-cast">Watch now</button>
+                <p class="movies-details-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                    dolor voluptas, veniam nes</p>
+            </div>
+
+        </div>
+        <div class="movies-card">
+            <img src="img/img-$ (18).jpg" alt="Movie Poster">
+            <div class="movies-details">
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-1 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-2 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-3  star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-4 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-5 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <p class="movies-details-voting">(3,24,990)players</p>
+                <button class="watch">Trailer </button>
+                <p class="movies-details-names">Flash</p>
+
+                <button id="add-to-cast" class="add-to-cast">Watch now</button>
+                <p class="movies-details-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                    dolor voluptas, veniam nes</p>
+            </div>
+
+
+        </div>
+        <div class="movies-card">
+            <img src="img/img-$ (19).jpg" alt="Movie Poster">
+            <div class="movies-details">
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-1 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-2 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-3  star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-4 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-5 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <p class="movies-details-voting">(3,24,990)players</p>
+                <button class="watch">Trailer </button>
+                <p class="movies-details-names">Avengers</p>
+
+                <button id="add-to-cast" class="add-to-cast">Watch now</button>
+                <p class="movies-details-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                    dolor voluptas, veniam nes</p>
+            </div>
+        </div>
+        <div class="movies-card">
+            <img src="img/img-$ (32).png" alt="Movie Poster">
+            <div class="movies-details">
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-1 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-2 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-3  star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-4 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-5 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <p class="movies-details-voting">(3,24,990)players</p>
+                <button class="watch">Trailer </button>
+                <p class="movies-details-names">Black phone 2</p>
+
+                <button id="add-to-cast" class="add-to-cast">Watch now</button>
+                <p class="movies-details-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                    dolor voluptas, veniam nes</p>
+            </div>
+        </div>
+        <div class="movies-card">
+            <img src="img/logan.png" alt="Movie Poster">
+            <div class="movies-details">
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-1 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-2 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-3  star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-4 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-5 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <p class="movies-details-voting">(3,24,990)players</p>
+                <button class="watch">Trailer </button>
+                <p class="movies-details-names">Logan</p>
+
+                <button id="add-to-cast" class="add-to-cast">Watch now</button>
+                <p class="movies-details-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                    dolor voluptas, veniam nes</p>
+            </div>
+        </div>
+        <div class="movies-card">
+            <img src="img/img-$ (22).jpg" alt="Movie Poster">
+            <div class="movies-details">
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-1 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-2 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-3  star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-4 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-5 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <p class="movies-details-voting">(3,24,990)players</p>
+                <button class="watch">Trailer </button>
+                <p class="movies-details-names">Zootopia</p>
+
+                <button id="add-to-cast" class="add-to-cast">Watch now</button>
+                <p class="movies-details-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                    dolor voluptas, veniam nes</p>
+            </div>
+        </div>
+        <div class="movies-card">
+            <img src="img/img-$ (23).jpg" alt="Movie Poster">
+            <div class="movies-details">
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-1 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-2 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-3  star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-4 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-5 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <p class="movies-details-voting">(3,24,990)players</p>
+                <button class="watch">Trailer </button>
+                <p class="movies-details-names">Avatar</p>
+
+                <button id="add-to-cast" class="add-to-cast">Watch now</button>
+                <p class="movies-details-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                    dolor voluptas, veniam nes</p>
+            </div>
+        </div>
+        <div class="movies-card">
+            <img src="img/img-$ (24).jpg" alt="Movie Poster">
+            <div class="movies-details">
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-1 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-2 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-3  star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-4 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-5 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <p class="movies-details-voting">(3,24,990)players</p>
+                <button class="watch">Trailer </button>
+                <p class="movies-details-names">Captain Marvel</p>
+
+                <button id="add-to-cast" class="add-to-cast">Watch now</button>
+                <p class="movies-details-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                    dolor voluptas, veniam nes</p>
+            </div>
+        </div>
+        <div class="movies-card">
+            <img src="img/img-$ (25).jpg" alt="Movie Poster">
+            <div class="movies-details">
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-1 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-2 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-3  star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-4 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-5 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <p class="movies-details-voting">(3,24,990)players</p>
+                <button class="watch">Trailer </button>
+                <p class="movies-details-names">Big Hero 6</p>
+
+                <button id="add-to-cast" class="add-to-cast">Watch now</button>
+                <p class="movies-details-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                    dolor voluptas, veniam nes</p>
+            </div>
+        </div>
+        <div class="movies-card">
+            <img src="img/img-$ (26).jpg" alt="Movie Poster">
+            <div class="movies-details">
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-1 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-2 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-3  star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-4 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-5 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <p class="movies-details-voting">(3,24,990)players</p>
+                <button class="watch">Trailer </button>
+                <p class="movies-details-names">Finding Nemo</p>
+
+                <button id="add-to-cast" class="add-to-cast">Watch now</button>
+                <p class="movies-details-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                    dolor voluptas, veniam nes</p>
+            </div>
+        </div>
+        <div class="movies-card">
+            <img src="img/img-$ (28).jpg" alt="Movie Poster">
+            <div class="movies-details">
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-1 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-2 star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-3  star-icon" viewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-4 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="star-icon-5 star-icon" star-iconviewBox="0 0 20 20"
+                    fill="currentColor" class="size-5">
+                    <path fill-rule="evenodd"
+                        d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <p class="movies-details-voting">(3,24,990)players</p>
+                <button class="watch">Trailer </button>
+                <p class="movies-details-names">Megan 2</p>
+
+                <button id="add-to-cast" class="add-to-cast">Watch now</button>
+                <p class="movies-details-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                    dolor voluptas, veniam nes</p>
+            </div>
+        </div>
+    </div>
+    <!-- home page ends
+     animatio-block-ends -->
+    <section class="features_section" id="feature_section" style="display: none;">
+        <h2 class="features_section_h2  heading-primary u-bottom-l">We Are Here To
+            Entertain The World.</h2>
+
+        <div>
+            <ul class="animation-container">
+                <li>
+                    <img src="img/sp.jpeg" alt="Movie Poster" url="video/SPIDER-MAN [2002] – Official Trailer (HD).mp4">
+                </li>
+                <li>
+                    <img src="img/img-$ (25).jpg" alt="Movie Poster" url="video/BIG HERO 6 _ UK Teaser Trailer _ Official Disney UK.mp4">
+                </li>
+                <li>
+                    <img src="img/img-$ (14).jpg" alt="Movie Poster" url="video/deadpool.mp4">
+                </li>
+                <li>
+                    <img src="img/img-$ (32).png" alt="Movie Poster" url="video/Blackphone2.mp4">
+                </li>
+            </ul>
+        </div>
+        <div class="animation-video u-left">
+            <video class="animation-video-video  u-left-l" autoplay muted loop src="video/Blackphone2.mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p class="features_section_p  text-content">
+                Thrilling everyonegain and again.Whatever you’re into, whatever your mood, 
+                Netflix delivers the next series, films and games you’llobsess over.
+                This is entertainment the world never sees coming – and can’t stop talking about..</p>
+        </div>
+
+    </section>
+    <div class="overlay-container" style="display: none;">
+
+        <div class="sp-container">
+            <div class="sp-container-card">
+                <img class="sp-image" src="img/img-$ (1).jpg" alt="spiderman">
+                <div class="gradient"></div>
+            </div>
+            <div class="sp-overlay">
+                <img class="sp-overlay-img" src="img/img-$ (1)-copy.png" alt="">
+            </div>
+        </div>
+
+        <div class="sp-container">
+            <div class="sp-container-card">
+                <img class="sp-image" src="img/img-$ (3).jpg" alt="spiderman">
+                <div class="gradient"></div>
+            </div>
+            <div class="sp-overlay">
+                <img class="sp-overlay-img" src="img/img-$ (3)-copy.png" alt="">
+            </div>
+        </div>
+
+        <div class="sp-container">
+            <div class="sp-container-card">
+                <img class="sp-image" src="img/img-$ (2).jpg" alt="spiderman">
+                <div class="gradient"></div>
+            </div>
+            <div class="sp-overlay">
+                <img class="sp-overlay-img" src="img/img-$ (2)-copy.png" alt="">
+            </div>
+        </div>
+
+        <div class="sp-container">
+            <div class="sp-container-card">
+                <img class="sp-image" src="img/img-$ (12).jpg" alt="spiderman">
+                <div class="gradient"></div>
+            </div>
+            <div class="sp-overlay">
+                <img class="sp-overlay-img" src="img/img-$ (12)-copy.png" alt="">
+            </div>
+        </div>
+
+        <div class="sp-container">
+            <div class="sp-container-card">
+                <img class="sp-image" src="img/sp.jpeg" alt="spiderman">
+                <div class="gradient"></div>
+            </div>
+            <div class="sp-overlay">
+                <img class="sp-overlay-img" src="img/sp-removebg-preview.png" alt="">
+            </div>
+        </div>
+
+        <div class="sp-container">
+            <div class="sp-container-card">
+                <img class="sp-image" src="img/img-$ (13).jpg" alt="spiderman">
+                <div class="gradient"></div>
+            </div>
+            <div class="sp-overlay">
+                <img class="sp-overlay-img" src="img/img-$ (13)-copy.png" alt="">
+            </div>
+        </div>
+
+        <div class="sp-container">
+            <div class="sp-container-card">
+                <img class="sp-image" src="img/img-$ (15).jpg" alt="spiderman">
+                <div class="gradient"></div>
+            </div>
+            <div class="sp-overlay">
+                <img class="sp-overlay-img" src="img/img-$ (15)-copy.png" alt="">
+            </div>
+        </div>
+
+        <div class="sp-container">
+            <div class="sp-container-card">
+                <img class="sp-image" src="img/img-$ (22).jpg" alt="spiderman">
+                <div class="gradient"></div>
+            </div>
+            <div class="sp-overlay">
+                <img class="sp-overlay-img" src="img/img-$ (22)-copy.png" alt="">
+            </div>
+        </div>
+
+        <div class="sp-container">
+            <div class="sp-container-card">
+                <img class="sp-image" src="img/img-$ (26).jpg" alt="spiderman">
+                <div class="gradient"></div>
+            </div>
+            <div class="sp-overlay">
+                <img class="sp-overlay-img" src="img/img-$ (26)-copy.png" alt="">
+            </div>
+        </div>
+
+    </div>
+    <div class="about_page" id="about_page" style="display: none;">
+        <div class="movies-animation-block " id="movies-animation-block">
+            <picture>
+                <img id="d1" src="img/img-$ (1).jpg" alt="Movie Poster">
+                <img id="d2" src="img/img-$ (2).jpg" alt="Movie Poster">
+                <img id="d3" src="img/img-$ (4).jpg" alt="Movie Poster">
+                <img id="d4" src="img/img-$ (10).jpg" alt="Movie Poster">
+                <img id="d5" src="img/img-$ (12).jpg" alt="Movie Poster">
+                <img id="d6" src="img/img-$ (25).jpg" alt="Movie Poster">
+                <img id="d7" src="img/img-$ (23).jpg" alt="Movie Poster">
+                <img id="d8" src="img/img-$ (14).jpg" alt="Movie Poster">
+                <img id="d9" src="img/about.jpeg" alt="Movie Poster">
+
+            </picture>
+        </div>
+        <div class="about_page_details-1">
+            <p class="heading-thirty"> Thrilling everyone again and again.</p>
+        </div>
+        <div class="about_page_details-2">
+            <p class="story_text">Whatever you’re into, whatever your mood, Movies delivers the next series, films and
+                games you’ll obsess
+                over. This is entertainment the world never sees coming – and can’t stop talking about.<br>
+                <br>
+                Thrilling everyone again and again. Whatever you’re into, whatever your mood, Netflix delivers the next
+                series, films and games you’ll obsess over. This is entertainment the world never sees coming – and
+                can’t stop talking about..
+            </p>
+
+        </div>
+
+        <div class="about_page_details-3">
+            <p class="contact1_text  heading-secondary">Contact us and follow us</p>
+            <i class="fi contact1 u-left-m fi-instagram"
+                style="font-size: 3.5rem;width: 5.5rem; display: flex; height: 5.5rem;"></i>
+            <i class="fi contact1 u-left-m  fi-facebook"
+                style="font-size: 3.5rem;width: 5.5rem; display: flex;height: 5.5rem;"></i>
+            <i class="fi contact1 u-left-m  fi-telegram"
+                style="font-size: 3.5rem;width: 5.5rem; display: flex; height:5.5rem"></i>
+            <i class="fa-brands  u-left-m  contact1 fa-youtube"
+                style="font-size: 3.5rem;width: 5.5rem; display: flex;height: 5.5rem;"></i>
+        </div>
+
+        <div class="contact_information">
+            <div class="contact_information_phone"><i class="fa-solid contact1 fa-phone-volume"
+                    style="font-size: 3.5rem;width: 5.5rem; display: flex;height: 5.5rem;"></i></div>
+            <div class="contact_information_email"><i class="fa-regular contact1 fa-envelope "
+                    style="font-size: 3.5rem;width: 5.5rem; display: flex;height: 5.5rem; "></i> </div>
+
+        </div>
+
+    </div>
+    <footer class="footer" id="footer" style="display: none;">
+        <div class="footer__logo-box">
+
+            <picture class="footer__logo">
+
+                <img alt="Full logo" style="width: 200px;height: 200px;" src="img/transparent-logo.png">
+            </picture>
+
+
+
+        </div>
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="footer__navigation">
+                    <ul class="footer__list">
+                        <ul class="footer__item"><a href="#" class="footer__link">Company</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Contact us</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Carrers</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Privacy policy</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+                        </ul>
+                </div>
+            </div>
+            <div class="col-2-of-3">
+                <p class="footer__copyright">
+                    Built by <a href="#" class="footer__link">Kamesh</a> if use have any query contact us in
+                    <i class="fa-solid contact1 fa-phone-volume" style="font-size: 2rem;"></i> 044-2893-9832 (or) Email
+                    <i class="fa-regular contact1 fa-envelope" style="font-size: 2rem;"></i> movies@gmail.com
+                </p>
+                <!-- <p class="contact1_text  ">Contact us and follow us in</p> -->
+
+            </div>
+        </div>
+    </footer>
+    <!-- popup page -->
+    <div class="popup">
+        <img class="popup_img" src="" alt="">
+        <div class="popup_gradient"></div>
+
+        <div style="display: none;" class="popup_video">
+            <video src="video/AQUAMAN - Final Trailer - Now Playing In Theaters.mp4" controls  class="popup_video_container"></video>
+        </div>
+
+        <div class="popup_details">
+            <div class="popup_details_rating">
+
+                <ul class="popup_ul">
+                    <li class="popup_li">
+                        <svg class="popup_li_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                            fill="currentColor" class="size-5">
+                            <path fill-rule="evenodd"
+                                d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </li>
+                    <li class="popup_li">
+                        <svg class="popup_li_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                            fill="currentColor" class="size-5">
+                            <path fill-rule="evenodd"
+                                d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </li>
+                    <li class="popup_li">
+                        <svg class="popup_li_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                            fill="currentColor" class="size-5">
+                            <path fill-rule="evenodd"
+                                d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </li>
+                    <li class="popup_li">
+                        <svg class="popup_li_svg  " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                            fill="currentColor" class="size-5">
+                            <path fill-rule="evenodd"
+                                d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </li>
+                    <li class="popup_li">
+                        <svg class="popup_li_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                            fill="currentColor" class="size-5">
+                            <path fill-rule="evenodd"
+                                d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </li>
+                    <li class="popup_li  grid-2">
+                        <p class="pop-details-voting" style="color: white;">(3,24,990)players</p>
+                    </li>
+                </ul>
+
+
+
+            </div>
+            <p class="popup_details_name"></p>
+            <p class="popup_details_paragraph" style="color: whitesmoke;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+                dolor voluptas, veniam Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi qui exercitationem
+                ut, consectetur maxime autem, quos excepturi veniam provident asperiores quaerat officia alias vero
+                deleniti cumque quisquam necessitatibus laborum tempore.
+            </p>
+            <!-- <div class="popup_details_btn"> -->
+                <button class="watch pop_trailer ">Trailer </button>
+                <button id="add-to-cast" class="add-to-cast">Watch now</button>
+            <!-- </div> -->
+        </div>
+        <div class="popup_close">
+            <div class="popup_close_container">
+                <div class="popup_close_before"></div>
+                <div class="popup_close_after"></div>
+            </div>
+        </div>
+    </div>
+    <!-- popup page end -->
+    <script src="E_cover.js"></script>
+</body>
+
+</html>
